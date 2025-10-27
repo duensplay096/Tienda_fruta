@@ -47,3 +47,5 @@ Route::get('/logout', function () {
     session()->forget('logueado');
     return redirect()->route('login');
 })->name('logout');
+
+    
